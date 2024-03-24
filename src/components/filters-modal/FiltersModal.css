@@ -1,0 +1,130 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .modal.open {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 2vw;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 2vw;
+    position: relative;
+  }
+  
+  .mdl-fil-heading {
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+  }
+  
+  .cancel-btn {
+    position: absolute;
+    z-index: 5;
+    top: 3vw;
+    right: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #fff;
+  }
+  
+  .cancel-btn > img {
+    width: 90%;
+    height: 90%;
+  }
+  
+  .mdl-fil-heading > h2 {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 500;
+  }
+  
+  .fil-container {
+    border: 1px solid #ced4da;
+    width: 100%;
+    height: 85%;
+    border-radius: 20px;
+    margin-bottom: 2vw;
+  }
+  
+  .status-filter {
+    margin: 2vw 0;
+    width: 100%;
+    height: 22vw;
+    padding: 0 2vw;
+  }
+  
+  .status-filter > h4 {
+    font-size: 1vw;
+    font-weight: 600;
+    color: #333;
+    margin: 1vw 0;
+  }
+  
+  .status-cont {
+    margin-bottom: 20px;
+    height: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .stat-btn {
+    background-color: #fff;
+    border: 1px solid #333;
+    width: 10vw;
+    height: 8vw;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 1vw;
+  }
+  
+  .stat-btn > img {
+    width: 2vw;
+    height: 2vw;
+  }
+  
+  .stat-btn > p {
+    font-size: 1vw;
+    font-weight: 500;
+  }
+  
+  .modal-actions {
+    text-align: right;
+  }
+  
+  .Apply-btn {
+    background-color: #377dff;
+    border: none;
+    color: #fff;
+    font-size: 1vw;
+    padding: 0.8vw 3vw;
+    border-radius: 10px;
+  }
+  
+  .stat-btn.selected {
+    border: 2px solid #5d6679;
+  }
+  
