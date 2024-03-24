@@ -47,6 +47,7 @@
     justify-content: center;
     border: none;
     background-color: #fff;
+    cursor: pointer;
   }
   
   .cancel-btn > img {
@@ -99,6 +100,7 @@
     border-radius: 10px;
     text-align: left;
     padding-left: 1vw;
+    cursor: pointer;
   }
   
   .stat-btn > img {
@@ -122,6 +124,7 @@
     font-size: 1vw;
     padding: 0.8vw 3vw;
     border-radius: 10px;
+    cursor: pointer;
   }
   
   .stat-btn.selected {

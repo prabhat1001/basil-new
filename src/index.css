@@ -315,6 +315,7 @@
   background-color: #fff;
   font-size: 0.8vw;
   color: #5d6679;
+  cursor: pointer;
 }
 
 .clr-all-fil {
@@ -323,6 +324,7 @@
   text-decoration: underline;
   font-size: 0.8vw;
   color: #5d6679;
+  cursor: pointer;
 }
 
 /* PDF COMPONENT ----------------------------------------------------- */
